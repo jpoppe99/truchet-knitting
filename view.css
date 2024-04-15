@@ -19,6 +19,32 @@ h1 {
 
 }
 
+nav {
+  background-color: #181243;
+  padding: 1em;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  min-width: 800px;
+  min-height: 800px;
+  margin: 2em;
+  padding: 1em;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
  #buttons{
   text-align: center;
  }
@@ -77,8 +103,9 @@ canvas {
   align-content: center;
 }
 
-footer{
+footer {
   text-align: center;
-  margin: 10px;
-
+  padding: 1em;
+  background-color: #9673ae;
+  color: white;
 }
