@@ -1,0 +1,48 @@
+Math for hats:
+inputs:
+sgauge: # of stitches for 4"
+rgauge: # of rows for 4"
+circumference: head cicumference (in inches)
+length: length of crown
+
+Example data:
+sgauge: 20
+rgauge: 22
+cicumference: 24"
+length: 6"
+
+
+*(circumference/4) * sgauge = width*
+(24/4) * 20 = 120
+width = 120
+
+*(length/4) * rgauge = height*
+(6/4) * 22 = 33
+height = 33
+
+
+TriangleSlide: (# of triangles)
+min = 5
+max = 6
+
+mod(width, min) 
+mod(width, max)
+choice = smallest
+take smaller of two and decrease to that point for each set of pixels
+(width/choice) - 1 = decreases
+height - decreases = base (size of rect before decreases)
+
+
+ie:
+choice = 5 (since mod(120, 5) = 0) 
+decreases = (120/5) - 1 = 23
+base = 33 - 23 = 10
+
+
+initial base = 10 (height) x 120 (width)
+on top: x5 right triangles, 24 (width) x 23
+
+
+
+
+

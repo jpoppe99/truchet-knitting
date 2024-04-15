@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   
     // Show the "About" section by default when the page loads
-    const initialSectionId = 'about'; // Set the default section ID to show
+    const initialSectionId = 'hat'; // Set the default section ID to show
     const initialSection = document.getElementById(initialSectionId);
     if (initialSection) {
       initialSection.style.display = 'block';
