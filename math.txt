@@ -3,7 +3,7 @@ inputs:
 sgauge: # of stitches for 4"
 rgauge: # of rows for 4"
 circumference: head cicumference (in inches)
-length: length of crown
+length: length of crown (in inches)
 
 Example data:
 sgauge: 20
@@ -21,6 +21,10 @@ width = 120
 height = 33
 
 
+Example hat here:
+https://vividfax.github.io/terrain-hat/
+It only allows multiples of 5 or 6 for number of stitches so you don't have to deal with random stitches
+we can either add considerations for odd stitch counts or we can round up or down when mod for 5 or 6 doesn't equal 0
 TriangleSlide: (# of triangles)
 min = 5
 max = 6
