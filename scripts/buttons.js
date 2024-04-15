@@ -30,5 +30,12 @@ document.addEventListener('DOMContentLoaded', function() {
         section.style.display = 'none';
       });
     }
+  
+    // Show the "About" section by default when the page loads
+    const initialSectionId = 'about'; // Set the default section ID to show
+    const initialSection = document.getElementById(initialSectionId);
+    if (initialSection) {
+      initialSection.style.display = 'block';
+    }
   });
   
